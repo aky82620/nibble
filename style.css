@@ -1,0 +1,58 @@
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+#know-more-btn{
+	text-align: center;
+	border: 3px solid #42639c;
+	background: none;
+	padding: 10px;
+	font-size: 16px;
+	color: white;
+	transition: 0.7s;
+}
+
+#know-more-btn:hover{
+	color: #42639c;
+	background: white;
+	border: 3px solid white;
+	transition: 0.5s;
+}
+
+#body{
+    background-color: #222629;
+}
+
+#main-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vmax;
+    color: white;
+}
+
+#heading{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+
+#disc{
+    font-size: 15px;
+}
+
+#disc-botm{
+    font-size: 16px;
+    color: #325288;
+}
+
+#counter{
+    background-color: #325288;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#contactus{
+    background: #2a3f64;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
