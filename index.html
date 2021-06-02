@@ -17,6 +17,7 @@
     <!-- Font Awesome Pro -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-xVVam1KS4+Qt2OrFa+VdRUoXygyKIuNWUUUBZYv+n27STsJ7oDOHJgfF0bNKLMJF" crossorigin="anonymous">
 
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
@@ -28,6 +29,9 @@
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+    <!-- Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <title>Stack Bird Technology</title>
 </head>
@@ -45,6 +49,9 @@
           <li class="nav-item text-right">
             <a class="nav-link px-4" href="about.html" style="font-size: 15px;">About Us</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="#contactus" style="font-size: 15px;">Contact Us</a>
+          </li>
           <li class="nav-item dropdown">
             <a style="font-size: 15px;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services
@@ -61,9 +68,6 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link px-4" href="#contactus" style="font-size: 15px;">Contact Us</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -78,9 +82,9 @@
 <section class="my-auto"  style="height: 560px;  background: url(6.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
   <div class="d-flex justify-content-center align-items-center h-100 container text-center">
     <div class="light">
-      <div id="main-heading">Your Work, Our Responsibility !</div>
+      <div id="main-heading" data-aos="fade">Your Work, Our Responsibility !</div>
       <br>
-      <a href="about.html"><button id="know-more-btn">Know more &nbsp <i class="fal fa-user"></i></button></a>
+      <a href="about.html"><button id="know-more-btn" data-aos="fade">Know more &nbsp <i class="fal fa-user"></i></button></a>
     </div>
   </div>
 </section>
@@ -89,18 +93,18 @@
 <!-- Counter -->
 <section class="p-3" id="counter">
   <div class="row text-center">
-    <div class="col-sm-3"><span style="font-size: 35px;">08</span><span style="font-size: 35px;">+</span>
+    <div class="col-sm-3"   data-aos="fade-up"><span style="font-size: 35px;">08</span><span style="font-size: 35px;">+</span>
     <br><span style="font-size: 18px;">Apps Developed</span>
     </div>
     
-    <div class="col-sm-3"><span style="font-size: 35px;">14</span><span style="font-size: 35px;">+</span>
+    <div class="col-sm-3"  data-aos="fade-up"><span style="font-size: 35px;">14</span><span style="font-size: 35px;">+</span>
     <br><span style="font-size: 18px;">Website designed</span>
     </div>
 
-    <div class="col-sm-3"><span style="font-size: 35px;">22</span><span style="font-size: 35px;">+</span>
+    <div class="col-sm-3"  data-aos="fade-up"><span style="font-size: 35px;">22</span><span style="font-size: 35px;">+</span>
     <br><span style="font-size: 18px;">Happy Clients</span>
       </div>
-    <div class="col-sm-3"><span style="font-size: 35px;">350</span><span style="font-size: 35px;">+</span>
+    <div class="col-sm-3"  data-aos="fade-up"><span style="font-size: 35px;">350</span><span style="font-size: 35px;">+</span>
     <br><span style="font-size: 18px;">App Developers</span>
     </div>
 
@@ -108,7 +112,7 @@
 </section>
 
 <section class="bg-dark">
-  <div class="container">
+  <div class="container" data-aos="fade-up">
     <div class="pt-5 pb-5">
       <h1 class="text-center" style="font-family: 'Montserrat', sans-serif; font-size: 3.5vmax; color: #eeeeee;">About StackBird</h1>
       <br>
@@ -123,16 +127,16 @@
 <!-- Services Section -->
 <section style="height: auto; background-color:#f4eee8">
   <div class="container">
-    <div class="pt-5 pb-2">
+    <div class="pt-5 pb-2" data-aos="fade-up">
       <h1 class="text-center" style="font-family: 'Montserrat', sans-serif; font-size: 3.5vmax; color: #325288;">WHAT WE DO</h1>
     </div>
-  <div class="row py-5" id="Des">
+  <div class="row py-5" id="Des" data-aos="fade-up">
     <div class="col-md-4 my-auto">
       <div class='text-center '>
       <img src="./1.svg" height="100%" width="100%">
       </div>
     </div>
-    <div class="col-md-8 my-auto ">
+    <div class="col-md-8 my-auto " data-aos="fade-up">
       <p id="heading">Discovery & Design</p>
       <p id="disc">Stackbird helps businesses from ideation to full-scale web design & development. We help in creating new ideas for businesses and build innovative web solutions that shape a brand. Our experts employ their expertise to provide clients with brand new websites or other digital solutions for their businesses.</p>
       <br>
@@ -147,7 +151,7 @@
 
 <div class="container"><div class="container"><hr></div></div>  
 
-    <div class="row py-5"  id="AppDev">
+    <div class="row py-5"  id="AppDev" data-aos="fade-up">
       <div class="col-md-8 my-auto ">
         <p id="heading">Andriod/iOS Development</p>
         <p id="disc">Using the industry experience and latest technologies, the developers at our firm build successful Android & iOS applications that accelerate your business growth. We are ranked among the top Android & iOS application development services providers.</p>
@@ -168,7 +172,7 @@
 
 <div class="container"><div class="container"><hr></div></div>
 
-  <div class="row py-5" id="WebDev">
+  <div class="row py-5" id="WebDev" data-aos="fade-up">
     <div class="col-md-4 my-auto">
       <div class='text-center '>
       <img src="./5.svg" height="90%" width="90%">
@@ -193,7 +197,7 @@
 
 <!-- Contact Us Section -->
 <section id="contactus">
-  <div class="container">
+  <div class="container" data-aos="fade-down">
     <br><br>
     
     <h3 class="text-center" style="font-size: 40px;">Contact us</h3>
@@ -226,7 +230,13 @@
 </footer>
 </section>
 
-    
+   
+    <!-- Animate on Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
